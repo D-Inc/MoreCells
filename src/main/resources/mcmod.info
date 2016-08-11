@@ -1,0 +1,21 @@
+[
+    {
+        "modid": "DEREKAE2",
+        "name": "Derek AE2",
+        "description": "Derek is awesome",
+        "version": "4.1.4",
+        "credits": "Derek",
+        "logoFile": "",
+        "mcversion": "1.7.10",
+        "url": "http://www.teamcofh.com",
+        "updateUrl": "",
+        "authorList": [
+            "Team CoFH"
+        ],
+        "parent": "",
+        "screenshots": [],
+        "dependencies": [
+            "MinecraftForge,CoFHCore,ThermalFoundation"
+        ]
+    }
+]

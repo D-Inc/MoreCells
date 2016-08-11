@@ -1,0 +1,11 @@
+morecells.item.storage.physical.1k.name=1k Storage Drive
+morecells.item.storage.physical.4k.name=4k Storage Drive
+morecells.item.storage.physical.16k.name=16k Storage Drive
+morecells.item.storage.physical.64k.name=64k Storage Drive
+morecells.item.storage.physical.container.name=Deep Storage Drive
+morecells.tooltip.empty1=Empty
+morecells.tooltip.storage.physical.types=%s of %s item types used.
+morecells.tooltip.storage.physical.bytes=%s of %s item bytes used.
+morecells.tooltip.storage.physical.content=Contains %s items.
+
+
