@@ -9,23 +9,23 @@ public class ItemDefinition implements IItemDefinition{
     public static final ItemDefinition instance = new ItemDefinition();
 
     @Override
-    public AEItemDefinition physCell1024k() {
+    public AEItemDefinition physCell16k() {
         return new ItemItemDefinitions(ItemEnum.BIGCELL.getItem(), 1);
     }
 
     @Override
-    public AEItemDefinition physCell16384k() {
+    public AEItemDefinition physCell64k() {
         return new ItemItemDefinitions(ItemEnum.BIGCELL.getItem(), 3);
     }
 
     // Physical Cells
     @Override
-    public AEItemDefinition physCell256k() {
+    public AEItemDefinition physCell1k() {
         return new ItemItemDefinitions(ItemEnum.BIGCELL.getItem());
     }
 
     @Override
-    public AEItemDefinition physCell4096k() {
+    public AEItemDefinition physCell4k() {
         return new ItemItemDefinitions(ItemEnum.BIGCELL.getItem(), 2);
     }
 
@@ -33,4 +33,5 @@ public class ItemDefinition implements IItemDefinition{
     public AEItemDefinition physCellContainer() {
         return new ItemItemDefinitions(ItemEnum.BIGCELL.getItem(), 4);
     }
+
 }
