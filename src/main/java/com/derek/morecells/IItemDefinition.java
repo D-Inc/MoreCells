@@ -6,13 +6,13 @@ import appeng.api.util.AEItemDefinition;
  * Created by Rocker545 on 8/11/2016.
  */
 public interface IItemDefinition {
-    AEItemDefinition physCell1k();
+    appeng.api.definitions.IItemDefinition physCell1k();
 
-    AEItemDefinition physCell4k();
+    appeng.api.definitions.IItemDefinition physCell4k();
 
-    AEItemDefinition physCell16k();
+    appeng.api.definitions.IItemDefinition physCell16k();
 
-    AEItemDefinition physCell64k();
+    appeng.api.definitions.IItemDefinition physCell64k();
 
-    AEItemDefinition physCellContainer();
+    appeng.api.definitions.IItemDefinition physCellContainer();
 }
