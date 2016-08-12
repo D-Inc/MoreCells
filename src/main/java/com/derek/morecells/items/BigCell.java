@@ -36,7 +36,7 @@ public class BigCell extends Item implements IStorageCell, IAEItemPowerStorage, 
     public static final String[] suffixes = {"1k", "4k", "16k", "64k", "container"};
 
     public static final int[] bytes_cell = { 1024, 4096, 16384, 65536, 16777216 };
-    public static final int[] types_cell = { 127, 127, 127, 127, 1 };
+    public static final int[] types_cell = { 1024, 1024, 1024, 1024, 1 };
     private IIcon[] icons;
     private final int MAX_POWER = 32000;
 
