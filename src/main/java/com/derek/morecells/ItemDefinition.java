@@ -32,5 +32,9 @@ public class ItemDefinition implements IItemDefinition{
     public appeng.api.definitions.IItemDefinition physCellContainer() {
         return new ItemItemDefinitions(ItemEnum.BIGCELL.getItem(), 4);
     }
-
+    
+    @Override
+    public appeng.api.definitions.IItemDefinition physCell16M() {
+        return new ItemItemDefinitions(ItemEnum.BIGCELL.getItem(), 5);
+    }
 }
