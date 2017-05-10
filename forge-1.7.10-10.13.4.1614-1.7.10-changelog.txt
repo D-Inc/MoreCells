@@ -1,4 +1,4 @@
-Changelog:
+Dnag Changelog:
 Build 1614:
 	LexManos: Fix dispensers equipping armor on players in the wrong slot Closes #1649
 
