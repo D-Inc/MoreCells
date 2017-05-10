@@ -15,4 +15,6 @@ public interface IItemDefinition {
     appeng.api.definitions.IItemDefinition physCell64k();
 
     appeng.api.definitions.IItemDefinition physCellContainer();
+    
+    appeng.api.definitions.IItemDefinition physCell16M();
 }
