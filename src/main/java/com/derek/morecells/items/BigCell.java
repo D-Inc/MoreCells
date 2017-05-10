@@ -33,10 +33,10 @@ import java.util.List;
 @Optional.Interface(iface = "cofh.api.energy.IEnergyContainerItem", modid = "CoFHAPI|energy")
 public class BigCell extends Item implements IStorageCell, IAEItemPowerStorage, IEnergyContainerItem{
 
-    public static final String[] suffixes = {"1k", "4k", "16k", "64k", "container"};
+    public static final String[] suffixes = {"1k", "4k", "16k", "64k", "container", "16M"};
 
-    public static final int[] bytes_cell = { 1024, 4096, 16384, 65536, 16777216 };
-    public static final int[] types_cell = { 1024, 1024, 1024, 1024, 1 };
+    public static final int[] bytes_cell = { 1024, 4096, 16384, 65536, 16777216, 16777216};
+    public static final int[] types_cell = { 1024, 1024, 1024, 1024, 1, 1024 };
     private IIcon[] icons;
     private final int MAX_POWER = 32000;
 
