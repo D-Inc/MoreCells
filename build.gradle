@@ -11,15 +11,17 @@ buildscript {
         }
     }
     dependencies {
-        classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.2-SNAPSHOT'
     }
 }
 
 apply plugin: 'forge'
 
-version = "1.0"
-group= "com.yourname.modid" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "modid"
+def env = System.getenv()
+version = "1.10.2-r" + env['TRAVIS_BUILD_NUMBER']
+group= "com.rocker545.morecells" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "morecells"
+
 
 minecraft {
     version = "1.10.2-12.18.3.2185"
