@@ -19,7 +19,7 @@ cache:
 branches:
   only:
   - master
-  - 1.10
+  - "1.10"
   
 deploy:
   provider: releases
