@@ -26,4 +26,4 @@ deploy:
   skip_cleanup: true
   on:
       branch: 
-      - "master"
+      - "1.10"
