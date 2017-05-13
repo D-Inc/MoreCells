@@ -15,7 +15,7 @@ buildscript {
     }
 }
 
-apply plugin: 'forge'
+apply plugin: 'net.minecraftforge.gradle.forge'
 
 def env = System.getenv()
 version = "1.10.2-r" + env['TRAVIS_BUILD_NUMBER']
